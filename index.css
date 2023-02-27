@@ -1,0 +1,56 @@
+/*HOME PAGE*/
+
+/*Navbar*/
+body {
+    font-family: "Montserrat"
+}
+
+.navbar {
+  width: 80%;
+  overflow:auto;
+  margin:auto;
+}
+
+.nav-logo {
+  float: left;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 20px;
+  width: 80px;
+  height: 50px;
+}
+
+.navbar a {
+  float: right;
+  padding: 14px;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navbar a:hover {
+  color: white;
+}
+
+/*Sakura Cafe Heading*/
+h1 {
+    text-align: center;
+    margin-top: 110px;
+    margin-bottom: 15px;
+    font-size: 44px;
+    line-height: 62px;
+    font-weight: 400;
+}
+
+/*Label Light*/
+.label-light {
+  margin-top: 77px;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+/*Small (Motto) Heading*/
+.heading-small {
+  text-align: center;
+  font-size: 36px;
+}
