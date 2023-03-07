@@ -1,6 +1,6 @@
 /*GENERAL*/
 body {
-  background-color: #FCECC9;
+  background-color: #445E93;
 }
 
 /*HOME PAGE*/
@@ -31,7 +31,7 @@ body {
   padding: 14px;
   text-decoration: none;
   font-size: 20px;
-  color: #445E93;
+  color: #FCECC9;
 }
 
 .navbar a:hover {
@@ -56,7 +56,7 @@ h1 {
   text-align: center;
   opacity: 0.6;
   letter-spacing: 0.2em;
-  color: #7EB2DD;
+  color: #FCB0B3;
 }
 
 /*Small (Motto) Heading*/
@@ -69,7 +69,7 @@ h1 {
 /*Line Separater*/
 hr {
   margin: 100px;
-  color: #445E93;
+  color: #FCECC9;
 }
 
 /*ABOUT SECTION*/
@@ -79,7 +79,7 @@ hr {
   opacity: 0.6;
   text-align: left;
   margin-left: 150px;
-  color: #7EB2DD;
+  color: #FCB0B3;
 }
 
 /*Who We Are Heading*/
@@ -98,7 +98,7 @@ hr {
   margin: 150px;
   margin-top: auto;
   margin-bottom: 10px;
-  color: #7EB2DD;
+  color: #FCECC9;
 }
 
 /*Button-left*/
@@ -128,7 +128,7 @@ hr {
   opacity: 0.6;
   text-align: right;
   margin-right: 140px;
-  color: #7EB2DD;
+  color: #FCB0B3;
 }
 
 /*Our Quiz! Heading*/
@@ -149,7 +149,7 @@ hr {
   margin-right: 140px ;
   margin-top: auto;
   margin-bottom: 10px;
-  color: #7EB2DD;
+  color: #FCECC9;
 }
 
 /*Button-right*/
@@ -184,6 +184,7 @@ hr {
   opacity: 0.6;
   margin-right: 500px;
   margin-top: 100px;
+  color: #FCECC9;
 }
 
 /*PERSONALITY QUIZ PAGE*/
@@ -195,7 +196,7 @@ hr {
   margin-top: auto;
   margin-bottom: 10px;
   opacity: 0.6;
-  color: #7EB2DD;
+  color: #FCECC9;
 }
 
 /*OUR VALUES*/
@@ -208,7 +209,7 @@ hr {
 }
 
 .s-desc {
-  color: #7EB2DD;
+  color: #FCECC9;
 }
 
 /*OUR FOOD PAGE*/
@@ -217,7 +218,6 @@ hr {
 .cf-heading {
   color: #445E93;
 }
-
 
 
 /*for onenote evidence*/
