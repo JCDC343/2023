@@ -37,7 +37,7 @@ body {
   color: #7EB2DD;
 }
 
-/*Sakura Cafe Heading*/
+/*Page Headings*/
 h1 {
     text-align: center;
     margin-top: 110px;
@@ -192,7 +192,7 @@ hr {
 /*Japanese Culture Descriptions*/
 .paragraph-light-center {
   text-align: center;
-  margin: 190px;
+  margin: 350px;
   margin-top: auto;
   margin-bottom: 10px;
   opacity: 0.6;
@@ -216,7 +216,7 @@ hr {
 
 /*OUR CAFE FOOD*/
 .cf-heading {
-  color: #445E93;
+  color: #FCB0B3;
 }
 
 
