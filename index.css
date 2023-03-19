@@ -195,29 +195,39 @@ hr {
   margin: 350px;
   margin-top: auto;
   margin-bottom: 10px;
-  opacity: 0.6;
   color: #FCECC9;
 }
 
-/*OUR VALUES*/
-.center-values {
-  margin-left: 350px;
+/*OUR VALUES + FOOD AND DRINK*/
+* {
+  box-sizing: border-box;
 }
 
-.v-heading {
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h2 {
+  text-align: center;
   color: #FCB0B3;
 }
 
 .s-desc {
   color: #FCECC9;
+  text-align: center;
+  margin: 35px;
 }
 
 /*OUR FOOD PAGE*/
 
-/*OUR CAFE FOOD*/
-.cf-heading {
-  color: #FCB0B3;
-}
 
 
 /*for onenote evidence*/
