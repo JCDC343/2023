@@ -38,6 +38,10 @@ body {
 }
 
 /*Page Headings*/
+.cafe-heading {
+  width: 60%;
+}
+
 h1 {
     text-align: center;
     margin-top: 110px;
@@ -45,7 +49,7 @@ h1 {
     font-size: 44px;
     line-height: 62px;
     font-weight: 400;
-    color: #F93943;
+    color: white;
 }
 
 /*Label Light*/
@@ -62,7 +66,7 @@ h1 {
 .heading-small {
   text-align: center;
   font-size: 36px;
-  color: #FCB0B3;
+  color: white;
 }
 
 /*Line Separater*/
@@ -88,7 +92,7 @@ hr {
   margin: 150px;
   margin-top: 20px;
   margin-bottom: 10px;
-  color: #F93943;
+  color: white;
 }
 
 /*WWA Paragraph*/
@@ -139,7 +143,7 @@ hr {
   margin-right: 140px;
   margin-top: 20px;
   margin-bottom: 10px;
-  color: #F93943;
+  color: white;
 }
 
 /*OQ Paragraph*/
@@ -187,11 +191,11 @@ hr {
   color: #FCECC9;
 }
 
-/*PERSONALITY QUIZ PAGE*/
+/*QUIZ PAGE*/
 
 /*Japanese Culture Descriptions*/
 .paragraph-light-center {
-  text-align: center;
+  text-align: left;
   margin: 350px;
   margin-top: auto;
   margin-bottom: 10px;
@@ -199,6 +203,13 @@ hr {
 }
 
 /*OUR VALUES + FOOD AND DRINK*/
+/*Column Headings*/
+.heading-small-columns {
+  text-align: center;
+  font-size: 36px;
+  color: white;
+}
+
 * {
   box-sizing: border-box;
 }
