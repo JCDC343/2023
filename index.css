@@ -1,13 +1,14 @@
 /*GENERAL*/
 body {
   background-color: #445E93;
+  font-family: "Montserrat"
+}
+
+.seig-dood {
+  margin-left: 0.8%;
 }
 
 /*HOME PAGE*/
-
-body {
-  font-family: "Montserrat"
-}
 
 /*Navbar*/
 .navbar {
@@ -38,7 +39,7 @@ body {
 }
 
 /*Page Headings*/
-.cafe-heading {
+.page-headings {
   width: 60%;
 }
 
@@ -125,7 +126,7 @@ hr {
   margin-top: -800px;
 }
 
-/*OUR CAFE SECTION*/
+/*OUR CAFE + QUIZ SECTION*/
 
 /*Label Light-right*/
 .label-light-right {
@@ -150,7 +151,7 @@ hr {
 .paragraph-light-right {
   text-align: right;
   margin: 800px;
-  margin-right: 140px ;
+  margin-right: 140px;
   margin-top: auto;
   margin-bottom: 10px;
   color: #FCECC9;
@@ -172,8 +173,9 @@ hr {
 
 /*OQ Image*/
 .oq-image {
-  margin-left: 150px;
+  margin-left: 50px;
   margin-top: -800px;
+  width: 50%;
 }
 
 /*License Image*/
@@ -195,7 +197,7 @@ hr {
 
 /*Japanese Culture Descriptions*/
 .paragraph-light-center {
-  text-align: left;
+  text-align: center;
   margin: 350px;
   margin-top: auto;
   margin-bottom: 10px;
