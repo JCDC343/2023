@@ -19,11 +19,10 @@ body {
 
 .nav-logo {
   float: left;
-  padding: 14px;
+  padding: 15px;
   text-decoration: none;
   font-size: 20px;
-  width: 80px;
-  height: 50px;
+  width: 10%;
 }
 
 .navbar a {
@@ -124,6 +123,7 @@ hr {
 .wwa-image {
   margin-left: 690px;
   margin-top: -800px;
+  width: 50%;
 }
 
 /*OUR CAFE + QUIZ SECTION*/
@@ -178,18 +178,10 @@ hr {
   width: 50%;
 }
 
-/*License Image*/
-.license {
-  margin-left: 560px;
-  width: 80px;
-  height: 50px;
-}
-
 /*License Label Light*/
 .license-label-light {
   opacity: 0.6;
-  margin-right: 500px;
-  margin-top: 100px;
+  text-align: center;
   color: #FCECC9;
 }
 
@@ -245,3 +237,50 @@ h2 {
 
 /*for onenote evidence*/
 
+/*motto-heading*/
+.box-1 {
+  margin-left: 15%;
+  margin-right: 15%;
+  border-width: 8px;
+  border-color: #7EB2DD;
+  border-style: double;
+}
+
+.motto-heading {
+  writing-mode: vertical-lr;
+  margin: auto;
+  height: 350px;
+  width: 300px;
+  text-orientation: upright;
+}
+
+/*japanese-culture-description*/
+.box-2 {
+  margin-left: 10%;
+  margin-right: 10%;
+  border-width: 8px;
+  border-color: #7EB2DD;
+  border-style: double;
+}
+
+/*cafe-menu-section*/
+.box-3 {
+  margin-left: 6%;
+  margin-right: 6%;
+  border-width: 8px;
+  border-color: #7EB2DD;
+  border-style: double;
+}
+
+/*about + cafe section*/
+
+
+/*cafe menu*/
+#rcorners1 {
+  border-radius: 25px;
+  background: #7EB2DD;
+  padding: 20px; 
+  width: 1400px;
+  height: 230px; 
+  margin: auto; 
+}
