@@ -1,7 +1,7 @@
 /*GENERAL*/
 body {
   background-color: #445E93;
-  font-family: "Montserrat"
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .seig-dood {
@@ -27,9 +27,9 @@ body {
 
 .navbar a {
   float: right;
-  padding: 14px;
+  padding: 20px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 25px;
   color: #FCECC9;
 }
 
@@ -57,7 +57,6 @@ h1 {
   margin-top: 77px;
   margin-bottom: 18px;
   text-align: center;
-  opacity: 0.6;
   letter-spacing: 0.2em;
   color: #FCB0B3;
 }
@@ -79,7 +78,6 @@ hr {
 
 /*Label Light-left*/
 .label-light-left {
-  opacity: 0.6;
   text-align: left;
   margin-left: 150px;
   color: #FCB0B3;
@@ -98,6 +96,7 @@ hr {
 /*WWA Paragraph*/
 .paragraph-light-left {
   text-align: left;
+  font-size: 16.5px;
   margin: 150px;
   width: 500px;
   margin-top: auto;
@@ -107,7 +106,7 @@ hr {
 
 /*Button-left*/
 .button-left {
-  background-color: #FCB0B3;
+  background-color: #F37F9C;
   border: none;
   color: white;
   padding: 12px 26px;
@@ -122,15 +121,15 @@ hr {
 /*WWA Image*/
 .wwa-image {
   margin-left: 690px;
-  margin-top: -800px;
-  width: 50%;
+  margin-top: -700px;
+  margin-bottom: 100px;
+  width: 48%;
 }
 
 /*OUR CAFE + QUIZ SECTION*/
 
 /*Label Light-right*/
 .label-light-right {
-  opacity: 0.6;
   text-align: right;
   margin-right: 140px;
   color: #FCB0B3;
@@ -150,6 +149,7 @@ hr {
 /*OQ Paragraph*/
 .paragraph-light-right {
   text-align: right;
+  font-size: 16.5px;
   margin: 800px;
   margin-right: 140px;
   margin-top: auto;
@@ -159,7 +159,7 @@ hr {
 
 /*Button-right*/
 .button-right {
-  background-color: #FCB0B3;
+  background-color: #F37F9C;
   border: none;
   color: white;
   padding: 12px 26px;
@@ -180,7 +180,6 @@ hr {
 
 /*License Label Light*/
 .license-label-light {
-  opacity: 0.6;
   text-align: center;
   color: #FCECC9;
 }
@@ -190,7 +189,7 @@ hr {
 /*Japanese Culture Descriptions*/
 .paragraph-light-center {
   text-align: center;
-  margin: 350px;
+  margin: 260px;
   margin-top: auto;
   margin-bottom: 10px;
   color: #FCECC9;
