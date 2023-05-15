@@ -41,18 +41,21 @@ const questions = [
       { text: "korai", correct: false},
     ]
   },
-  question: "pink sanrio character?",
+  {
+    question: "pink sanrio character?",
     answers: [
       { text: "my melo", correct: true},
       { text: "kuromi", correct: false},
       { text: "pochacco", correct: false},
       { text: "korai", correct: false},
     ]
+  }
+  
 ];
 
 /*Adding variables for elements (IDs)*/
 const questionElement = document.getElementById("question"); 
-const answerButton = document.getElementById("answer-buttons"); 
+const answerButtons = document.getElementById("answer-buttons"); 
 const nextButton = document.getElementById("next-btn"); 
 
 /*Question no. + score*/
@@ -67,6 +70,7 @@ function startQuiz(){
 }
 
 function showQuestion (){
+  resetState();
   let currentQuestion = questions[currentQuestionIndex];
   let questionNo = currentQuestionIndex + 1;
   questionElement.innerHTML = questionNo + ". " + currentQuestion.
@@ -76,8 +80,36 @@ function showQuestion (){
     const button = document.createElement("button");
     button.innerHTML = answer.text;
     button.classList.add("btn");
-    answerButton.appendChild(button);
-  })
+    answerButtons.appendChild(button);
+    if(answer.correct){
+      button.dataset.correct = answer.correct;
+    }
+    button.addEventListener("click", selectAnswer);
+  });
+}
+
+function resetState(){
+  nextButton.style.display = ")none";
+  while(answerButtons.firstChild){
+    answerButtons.removeChild(answerButtons.firstChild);
+  }
+}
+
+function selectAnswer(e){
+  const selectedBtn = e.target;
+  const isCorrect = selectedBtn.dataset.correct === "true";
+  if(isCorrect){
+    selectedBtn.classList.add("correct");
+  }else{
+    selectedBtn.classList.add("incorrect");
+  }
+  Array.from(answerButtons.children).forEach(button => {
+    if(button.dataset.correct === "true"){
+      button.classList.add("correct");
+    }
+    button.disabled = true;
+  });
+  nextButton.style.display = "block";
 }
 
 startQuiz();
