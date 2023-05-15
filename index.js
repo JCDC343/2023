@@ -80,4 +80,4 @@ function showQuestion (){
   })
 }
 
-/*video - 20:00*/
+startQuiz();

@@ -130,7 +130,8 @@ hr {
   padding: 12px 26px;
   text-align: center;
   display: inline-block;
-  font-size: 15px;
+  font-size: 16.5px;
+  font-family: 'Courier New', Courier, monospace;
   margin-left: 150px;
   letter-spacing: 0.2em;
   line-height: 25px;
@@ -183,7 +184,8 @@ hr {
   padding: 12px 26px;
   text-align: center;
   display: inline-block;
-  font-size: 15px;
+  font-size: 16.5px;
+  font-family: 'Courier New', Courier, monospace;
   margin-left: 1055px;
   letter-spacing: 0.2em;
   line-height: 25px;
