@@ -18,3 +18,66 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
+/*QUIZ PROGRAM*/
+
+/*Quiz questions + answers*/
+const questions = [
+  {
+    question: "pink sanrio character?",
+    answers: [
+      { text: "my melo", correct: true},
+      { text: "kuromi", correct: false},
+      { text: "pochacco", correct: false},
+      { text: "korai", correct: false},
+    ]
+  },
+  {
+    question: "pink sanrio character?",
+    answers: [
+      { text: "my melo", correct: true},
+      { text: "kuromi", correct: false},
+      { text: "pochacco", correct: false},
+      { text: "korai", correct: false},
+    ]
+  },
+  question: "pink sanrio character?",
+    answers: [
+      { text: "my melo", correct: true},
+      { text: "kuromi", correct: false},
+      { text: "pochacco", correct: false},
+      { text: "korai", correct: false},
+    ]
+];
+
+/*Adding variables for elements (IDs)*/
+const questionElement = document.getElementById("question"); 
+const answerButton = document.getElementById("answer-buttons"); 
+const nextButton = document.getElementById("next-btn"); 
+
+/*Question no. + score*/
+let currentQuestionIndex = 0;
+let score = 0;
+
+function startQuiz(){
+  currentQuestionIndex = 0;
+  score = 0;
+  nextButton.innerHTML = "Next";
+  showQuestion();
+}
+
+function showQuestion (){
+  let currentQuestion = questions[currentQuestionIndex];
+  let questionNo = currentQuestionIndex + 1;
+  questionElement.innerHTML = questionNo + ". " + currentQuestion.
+  question;
+
+  currentQuestion.answers.forEach(answer => {
+    const button = document.createElement("button");
+    button.innerHTML = answer.text;
+    button.classList.add("btn");
+    answerButton.appendChild(button);
+  })
+}
+
+/*video - 20:00*/
