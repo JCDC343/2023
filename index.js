@@ -24,32 +24,185 @@ function topFunction() {
 /*Quiz questions + answers*/
 const questions = [
   {
-    question: "pink sanrio character?",
+    question: "What flower is the “Sakura?”",
     answers: [
-      { text: "my melo", correct: true},
-      { text: "kuromi", correct: false},
-      { text: "pochacco", correct: false},
-      { text: "korai", correct: false},
+      { text: "Sunflower", correct: false},
+      { text: "Cherry blossom", correct: true},
+      { text: "Daisy", correct: false},
+      { text: "Peony", correct: false},
     ]
   },
   {
-    question: "pink sanrio character?",
+    question: "Why do customers slurp their noodles loudly in restaurants and cafes?",
     answers: [
-      { text: "my melo", correct: true},
-      { text: "kuromi", correct: false},
-      { text: "pochacco", correct: false},
-      { text: "korai", correct: false},
+      { text: "To be rude", correct: false},
+      { text: "To make sure they get all the soup flavour", correct: false},
+      { text: "To let the chef know the noodles are delicious", correct: true},
+      { text: "To compete with other customers on who can slurp the loudest", correct: false},
     ]
   },
   {
-    question: "pink sanrio character?",
+    question: "What does the red circle on the Japanese flag represent?",
     answers: [
-      { text: "my melo", correct: true},
-      { text: "kuromi", correct: false},
-      { text: "pochacco", correct: false},
-      { text: "korai", correct: false},
+      { text: "The sun", correct: true},
+      { text: "The Japanese army", correct: false},
+      { text: "The red Komodo Dragon", correct: false},
+      { text: "A tomato", correct: false},
     ]
-  }
+  },
+  {
+    question: "What is the Japanese dish “Okayo-don” made up of?",
+    answers: [
+      { text: "Deep-fried pork cutlet on rice", correct: false},
+      { text: "Boiled beef on rice", correct: false},
+      { text: "Chicken and egg on rice", correct: true},
+      { text: "Sweet flower jelly", correct: false},
+    ]
+  },
+  {
+    question: "What does the name Japan mean?",
+    answers: [
+      { text: "Land of the great wall", correct: false},
+      { text: "Land of the rising sun", correct: true},
+      { text: "The place near the ocean", correct: false},
+      { text: "The beautiful flower field", correct: false},
+    ]
+  },
+  {
+    question: "The most important crop grown in Japan is .. ?",
+    answers: [
+      { text: "Beef", correct: false},
+      { text: "Corn", correct: false},
+      { text: "Rice", correct: true},
+      { text: "Wheat", correct: false},
+    ]
+  },
+  {
+    question: "The national sport in Japan is .. ?",
+    answers: [
+      { text: "Basketball", correct: false},
+      { text: "Sumo", correct: true},
+      { text: "Volleyball", correct: false},
+      { text: "Badminton", correct: false},
+    ]
+  },
+  {
+    question: "What is sanrio?",
+    answers: [
+      { text: "A Japanese restaurant", correct: false},
+      { text: "A Japanese piano brand", correct: false},
+      { text: "A Japanese toy manufacturer", correct: false},
+      { text: "A Japanese kawaii character company", correct: true},
+    ]
+  },
+  {
+    question: "What is the Japanese word for tea ceremony?",
+    answers: [
+      { text: "Sado", correct: true},
+      { text: "Mako", correct: false},
+      { text: "Kado", correct: false},
+      { text: "Saju", correct: false},
+    ]
+  },
+  {
+    question: "You have been invited to have dinner at your Japanese colleague’s house. Which of the following should you bring?",
+    answers: [
+      { text: "A wrapped gift", correct: true},
+      { text: "Flowers", correct: false},
+      { text: "A friend", correct: false},
+      { text: "A bottle of wine", correct: false},
+    ]
+  },
+  {
+    question: "What animal represents the Japanese word “Kitsune”?",
+    answers: [
+      { text: "Fox", correct: true},
+      { text: "Sheep", correct: false},
+      { text: "Tiger", correct: false},
+      { text: "Komodo dragon", correct: false},
+    ]
+  },
+  {
+    question: "How do Japanese people show politeness when greeting each other?",
+    answers: [
+      { text: "By handshaking", correct: false},
+      { text: "By high fiving", correct: false},
+      { text: "By spinning in a circle", correct: false},
+      { text: "By bowing", correct: true},
+    ]
+  },
+  {
+    question: "What does the Japanese word “Kokorozuke” mean?",
+    answers: [
+      { text: "Baking with love", correct: false},
+      { text: "Giving tips", correct: true},
+      { text: "Caring for the elderly", correct: false},
+      { text: "Singing loudly", correct: false},
+    ]
+  },
+  {
+    question: "What do couples in Japan usually avoid doing in public?",
+    answers: [
+      { text: "Hugging and kissing", correct: true},
+      { text: "Being seen visiting a friend’s home together", correct: false},
+      { text: "Holding hands", correct: false},
+      { text: "Purchasing sanitary products together", correct: false},
+    ]
+  },
+  {
+    question: "What occassion is Christmas similar to in Japan?",
+    answers: [
+      { text: "Halloween", correct: false},
+      { text: "Valentines Day", correct: true},
+      { text: "New years", correct: false},
+      { text: "St. Patricks Day", correct: false},
+    ]
+  },
+  {
+    question: "To be respectful and polite, in what position should you rest your chopsticks while eating?",
+    answers: [
+      { text: "Stuck in the food ", correct: false},
+      { text: "Horizontally on the table", correct: true},
+      { text: "One chopstick on either side of the dish", correct: false},
+      { text: "In a cross over the dish", correct: false},
+    ]
+  },
+  {
+    question: "What is considered poor manners in Japan?",
+    answers: [
+      { text: "Eating with your hands", correct: false},
+      { text: "Refilling other’s drinks", correct: false},
+      { text: "Slurping", correct: false},
+      { text: "Eating or drinking while walking", correct: true},
+    ]
+  },
+  {
+    question: "What is a “bonsai”?",
+    answers: [
+      { text: "A Japanese drink", correct: false},
+      { text: "A Japanese mini tree", correct: true},
+      { text: "A Japanese soldier", correct: false},
+      { text: "A Japanese religion", correct: false},
+    ]
+  },
+  {
+    question: "What the the famous mountain in Japan called?",
+    answers: [
+      { text: "Mount Faju", correct: false},
+      { text: "Mount Fuji", correct: true},
+      { text: "Mount Foji", correct: false},
+      { text: "Mount Fiju", correct: false},
+    ]
+  },
+  {
+    question: "What is the Japanese national anthem called?",
+    answers: [
+      { text: "Seijo", correct: false},
+      { text: "Kimigayo", correct: true},
+      { text: "Igen", correct: false},
+      { text: "Utsukushii", correct: false},
+    ]
+  },
   
 ];
 
@@ -100,6 +253,7 @@ function selectAnswer(e){
   const isCorrect = selectedBtn.dataset.correct === "true";
   if(isCorrect){
     selectedBtn.classList.add("correct");
+    score++;
   }else{
     selectedBtn.classList.add("incorrect");
   }
@@ -111,5 +265,29 @@ function selectAnswer(e){
   });
   nextButton.style.display = "block";
 }
+
+function showScore(){
+  resetState();
+  questionElement.innerHTML = "You scored ${score} out of ${questions.length}!";
+  nextButton.innerHTML = "Play Again";
+  nextButton.style.display = "block";
+}
+
+function handleNextButton(){
+  currentQuestionIndex++;
+  if(currentQuestionIndex < questions.length){
+    showQuestion();
+  }else{
+    showScore();
+  }
+}
+
+nextButton.addEventListener("click", ()=>{
+  if(currentQuestionIndex < questions.length){
+    handleNextButton();
+  }else{
+    startQuiz();
+  }
+});
 
 startQuiz();

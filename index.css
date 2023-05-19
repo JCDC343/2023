@@ -249,9 +249,13 @@ hr {
   transition: all 0.3s;
 }
 
-.btn:hover {
+.btn:hover:not([disabled]){
   background: #7EB2DD;
   color: #fff;
+}
+
+.btn:disabled{
+  cursor: no-drop;
 }
 
 /*"Next question" button*/
@@ -270,11 +274,11 @@ hr {
 
 /*correct + incorrect answers*/
 .correct{
-  background: green;
+  background: #8ace7e;
 }
 
 .incorrect{
-  background: red;
+  background: #ff684c;
 }
 
 /*Japanese Culture Descriptions*/
