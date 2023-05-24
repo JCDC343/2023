@@ -20,10 +20,13 @@ body {
   cursor: pointer;
   padding: 15px;
   border-radius: 4px;
+  transition: all 0.3s;
+  
 }
 
 #myBtn:hover {
   background-color: #7EB2DD;
+  transition: all 0.3s;
 }
 
 /*HOME PAGE*/
@@ -135,6 +138,13 @@ hr {
   margin-left: 150px;
   letter-spacing: 0.2em;
   line-height: 25px;
+  transition: all 0.3s;
+}
+
+.button-left:hover {
+  background-color: #7EB2DD;
+  transition: all 0.3s;
+  cursor: pointer;
 }
 
 /*WWA Image*/
@@ -189,6 +199,13 @@ hr {
   margin-left: 1055px;
   letter-spacing: 0.2em;
   line-height: 25px;
+  transition: all 0.3s;
+}
+
+.button-right:hover {
+  background-color: #7EB2DD;
+  transition: all 0.3s;
+  cursor: pointer;
 }
 
 /*OQ Image*/
@@ -208,11 +225,11 @@ hr {
 
 /*QUIZ PROGRAM*/
 .app {
-  background: #fff;
-  width: 90%;
-  max-width: 600px;
+  background: #FBDADC;
+  width: 100%;
+  max-width: 900px;
   margin: 100px auto 0;
-  border-radius: 10px;
+  border-radius: 25px;
   padding: 30px;
 }
 
@@ -230,17 +247,18 @@ hr {
 
 .quiz h2 {
   font-size: 18px;
-  color: #F37F9C;
+  color: #445E93;
   font-weight: 600;
 }
 
 /*Multi-choice buttons*/
 .btn {
-  background: #FCECC9;
-  color: #222;
-  font-weight: 500;
+  background: #FFF;
+  color: #445E93;
+  font-weight: 800;
+  font-family: 'Courier New', Courier, monospace;
   width: 100%;
-  border: 1px solid #222;
+  border: 0px solid #222;
   padding: 10px;
   margin: 10px 0;
   text-align: left;
@@ -250,7 +268,7 @@ hr {
 }
 
 .btn:hover:not([disabled]){
-  background: #7EB2DD;
+  background: #ADCCEB;
   color: #fff;
 }
 
@@ -260,8 +278,9 @@ hr {
 
 /*"Next question" button*/
 #next-btn {
-  background: #FCECC9;
+  background: #F37F9C;
   color: #fff;
+  font-family: 'Courier New', Courier, monospace;
   font-weight: 500;
   width: 150px;
   border: 0;
@@ -271,6 +290,15 @@ hr {
   cursor: pointer;
   display: none;
 }
+
+#next-btn:hover {
+  background-color: #7EB2DD;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+/*Hide next button when user is answering question - prevents user from breaking program*/
+
 
 /*correct + incorrect answers*/
 .correct{

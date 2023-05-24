@@ -36,30 +36,23 @@
       <!--INTRO HEADING-->
       <div class="heading-small">Welcome to Omotenashi Café’s Quiz!</div>
       <br><br>
-      <div class="heading-small" style="font-size: 150%; color: #FCECC9;">Our 20 question Quiz will test you on your knowledge about Japanese culture. 
+      <div class="heading-small" style="font-size: 150%; color: #FCECC9;">Our 20 question quiz will test you on your knowledge about Japanese culture. 
         <br><br>
         Challenge your friends and Goodluck! 
         <br><br>
         - Kōrai</div>
 
       <!--Line Separater-->
-      <br>
       <hr>
-      <br>
 
       <!--QUIZ HEADING QUESTION-->
       <div class="heading-small"><b>Omotenashi no nipponbunka kuizu</b></div>
       <br>
       <p class="label-light" style="color: white; margin-top: 0.1%;">Omotenashi's Japanese Culture Quiz</p> 
       <p class="label-light" style="color: white; margin-top: 0.1%;">おもてなしの日本文化クイズ</p> 
-      
-      <br><br><br>
-      <br><br><br>
-      <br><br><br>
 
       <!--QUIZ-->
       <div class="app">
-        <h1">Simple Quiz</h1>
         <div class="quiz">
           <h2 id="question">question goes here</h2>
           <div id="answer-buttons">
@@ -68,14 +61,12 @@
             <button class="btn">answer 3</button>
             <button class="btn">answer 4</button>
           </div>
-          <button id="next-btn">next</button>
+          <button id="next-btn" onclick="handleNextQuestion">next</button>
         </div>
       </div>
 
       <!--Line Separater-->
-      <br>
       <hr>
-      <br>
 
       <!--JAPANESE CULTURE DESCRIPTIONS-->
       <div><p class="paragraph-light-center">In Japanese culture, Omotenashi meaning hospitality, is very significant. 
@@ -103,7 +94,7 @@
           <center><img src="pc+c-value.PNG" alt="pc+c-value" width="50%"></center>
           <h2>Polite Courtesies <br> + <br> Cleanliness</h2>
           <p class="s-desc">In Japan, customers often slurp soup and drinks to let the chef know it tastes delicious! Omotenashi will have chabudai (Japanese tables)
-          which are traditionally low and requires customers to kneal while having meals.
+          which are traditionally low and requires customers to kneel while having meals.
           <br><br>
           Keeping areas clean at all times is also an important practice for Omotenashi as one of Japan's main religions, Shintoism, conducts the rituals of purity 
           and purification frequently.</p>
@@ -150,6 +141,9 @@
 
     <br><br><br>
 
+    <button onclick="hello()">hello</button>
+
         <script src="index.js" async defer></script> <!--JS page linking-->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     </body>
 </html>

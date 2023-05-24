@@ -215,6 +215,7 @@ const nextButton = document.getElementById("next-btn");
 let currentQuestionIndex = 0;
 let score = 0;
 
+/*Start quiz*/
 function startQuiz(){
   currentQuestionIndex = 0;
   score = 0;
@@ -222,13 +223,14 @@ function startQuiz(){
   showQuestion();
 }
 
+/*Show question*/
 function showQuestion (){
   resetState();
   let currentQuestion = questions[currentQuestionIndex];
   let questionNo = currentQuestionIndex + 1;
   questionElement.innerHTML = questionNo + ". " + currentQuestion.
   question;
-
+/*Check if answer is correct or incorrect*/
   currentQuestion.answers.forEach(answer => {
     const button = document.createElement("button");
     button.innerHTML = answer.text;
@@ -241,6 +243,7 @@ function showQuestion (){
   });
 }
 
+/*Reset question - removing visible question components to display next question components*/
 function resetState(){
   nextButton.style.display = ")none";
   while(answerButtons.firstChild){
@@ -248,7 +251,12 @@ function resetState(){
   }
 }
 
+/*User selects an answer*/
 function selectAnswer(e){
+  /*Hides next button until user selects an answer*/
+  document.getElementById("next-btn").style.display = "block";
+  document.getElementById("next-btn").style.visibility = "visible";
+  /*Searches program to see if user selected answer is correct*/
   const selectedBtn = e.target;
   const isCorrect = selectedBtn.dataset.correct === "true";
   if(isCorrect){
@@ -263,17 +271,23 @@ function selectAnswer(e){
     }
     button.disabled = true;
   });
+  /*Displays next button once program shows user if their answer was correct (green) or incorrect (red)*/
   nextButton.style.display = "block";
 }
 
+/*Shows score to user at the end of quiz*/
 function showScore(){
   resetState();
   questionElement.innerHTML = "You scored ${score} out of ${questions.length}!";
+  document.getElementById("next-btn").style.display = "block";
+  document.getElementById("next-btn").style.visibility = "visible";
   nextButton.innerHTML = "Play Again";
   nextButton.style.display = "block";
 }
 
+/*Determines what clicking the next button will do depending on what stage the program is running at*/
 function handleNextButton(){
+  document.getElementById("next-btn").style.visibility = "hidden";
   currentQuestionIndex++;
   if(currentQuestionIndex < questions.length){
     showQuestion();
@@ -282,6 +296,7 @@ function handleNextButton(){
   }
 }
 
+/*Determines if clicking the next button will run "handleNextButton" code or restart quiz again*/
 nextButton.addEventListener("click", ()=>{
   if(currentQuestionIndex < questions.length){
     handleNextButton();
@@ -290,4 +305,14 @@ nextButton.addEventListener("click", ()=>{
   }
 });
 
+/*Starts quiz - quiz program code runs again from the start*/
 startQuiz();
+
+//TEST!//
+//function hello(){//
+ // Swal.fire('Any fool can use a computer')
+
+ function hello(){
+  Swal.fire('Any fool can use a computer');
+}
+
