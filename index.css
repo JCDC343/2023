@@ -5,7 +5,7 @@ body {
 }
 
 /*Scroll back to top of page*/
-#myBtn {
+#btp-btn {
   display: none;
   position: fixed;
   bottom: 20px;
@@ -24,7 +24,7 @@ body {
   
 }
 
-#myBtn:hover {
+#btp-btn:hover {
   background-color: #7EB2DD;
   transition: all 0.3s;
 }
