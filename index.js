@@ -15,6 +15,7 @@ function scrollFunction() {
 
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
+  console.log("button pressed");
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
@@ -202,9 +203,9 @@ const questions = [
       { text: "Igen", correct: false},
       { text: "Utsukushii", correct: false},
     ]
-  },
-  
+  }
 ];
+  
 
 /*Adding variables for elements (IDs)*/
 const questionElement = document.getElementById("question"); 
@@ -278,7 +279,7 @@ function selectAnswer(e){
 /*Shows score to user at the end of quiz*/
 function showScore(){
   resetState();
-  questionElement.innerHTML = "You scored ${score} out of ${questions.length}!";
+  questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
   document.getElementById("next-btn").style.display = "block";
   document.getElementById("next-btn").style.visibility = "visible";
   nextButton.innerHTML = "Play Again";
