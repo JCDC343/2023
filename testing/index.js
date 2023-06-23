@@ -283,7 +283,6 @@ function showScore(){
   document.getElementById("next-btn").style.display = "block";
   document.getElementById("next-btn").style.visibility = "visible";
   nextButton.innerHTML = "Play Again";
-  console.log("Play Again"); 
   nextButton.style.display = "block";
 }
 
@@ -309,3 +308,16 @@ nextButton.addEventListener("click", ()=>{
 
 /*Starts quiz - quiz program code runs again from the start*/
 startQuiz();
+
+//TEST!//
+//function hello(){//
+ // Swal.fire('Any fool can use a computer')
+
+//test button//
+function myFunction() {
+  alert("connection works!");
+}
+
+ function hello(){
+  Swal.fire('Any fool can use a computer');
+}

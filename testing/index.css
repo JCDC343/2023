@@ -1,0 +1,399 @@
+/*GENERAL*/
+body {
+  background-color: #445E93;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/*Scroll back to top of page*/
+#btp-btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+  border: none;
+  outline: none;
+  background-color: #F37F9C;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  transition: all 0.3s;
+  
+}
+
+#btp-btn:hover {
+  background-color: #7EB2DD;
+  transition: all 0.3s;
+}
+
+/*HOME PAGE*/
+
+/*Navbar*/
+.navbar {
+  width: 80%;
+  overflow:auto;
+  margin:auto;
+}
+
+.nav-logo {
+  float: left;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 20px;
+  width: 10%;
+}
+
+.navbar a {
+  float: right;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #FCECC9;
+}
+
+.navbar a:hover {
+  color: #7EB2DD;
+}
+
+/*Page Headings*/
+.page-headings {
+  width: 60%;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 110px;
+    margin-bottom: 15px;
+    font-size: 44px;
+    line-height: 62px;
+    font-weight: 400;
+    color: white;
+}
+
+/*Label Light*/
+.label-light {
+  margin-top: 77px;
+  margin-bottom: 18px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  color: #FCB0B3;
+}
+
+/*Small (Motto) Heading*/
+.heading-small {
+  text-align: center;
+  font-size: 36px;
+  color: white;
+}
+
+/*Line Separater*/
+hr {
+  margin: 100px;
+  color: #FCECC9;
+}
+
+/*ABOUT SECTION*/
+
+/*Label Light-left*/
+.label-light-left {
+  text-align: left;
+  margin-left: 150px;
+  color: #FCB0B3;
+}
+
+/*Who We Are Heading*/
+.wwa-heading-small {
+  text-align: left;
+  font-size: 30px;
+  margin: 150px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+/*WWA Paragraph*/
+.paragraph-light-left {
+  text-align: left;
+  font-size: 16.5px;
+  margin: 150px;
+  width: 500px;
+  margin-top: auto;
+  margin-bottom: 10px;
+  color: #FCECC9;
+}
+
+/*Button-left*/
+.button-left {
+  background-color: #F37F9C;
+  border: none;
+  color: white;
+  padding: 12px 26px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16.5px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: 150px;
+  letter-spacing: 0.2em;
+  line-height: 25px;
+  transition: all 0.3s;
+}
+
+.button-left:hover {
+  background-color: #7EB2DD;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+/*WWA Image*/
+.wwa-image {
+  margin-left: 690px;
+  margin-top: -700px;
+  margin-bottom: 100px;
+  width: 48%;
+}
+
+/*OUR CAFE + QUIZ SECTION*/
+
+/*Label Light-right*/
+.label-light-right {
+  text-align: right;
+  margin-right: 140px;
+  color: #FCB0B3;
+}
+
+/*Our Quiz! Heading*/
+.oq-heading-small {
+  text-align: right;
+  font-size: 30px;
+  margin: 190px;
+  margin-right: 140px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+/*OQ Paragraph*/
+.paragraph-light-right {
+  text-align: right;
+  font-size: 16.5px;
+  margin: 800px;
+  margin-right: 140px;
+  margin-top: auto;
+  margin-bottom: 10px;
+  color: #FCECC9;
+}
+
+/*Button-right*/
+.button-right {
+  background-color: #F37F9C;
+  border: none;
+  color: white;
+  padding: 12px 26px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16.5px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-left: 1055px;
+  letter-spacing: 0.2em;
+  line-height: 25px;
+  transition: all 0.3s;
+}
+
+.button-right:hover {
+  background-color: #7EB2DD;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+/*OQ Image*/
+.oq-image {
+  margin-left: 50px;
+  margin-top: -800px;
+  width: 50%;
+}
+
+/*License Label Light*/
+.license-label-light {
+  text-align: center;
+  color: #FCECC9;
+}
+
+/*QUIZ PAGE*/
+
+/*QUIZ PROGRAM*/
+.app {
+  background: #FBDADC;
+  width: 100%;
+  max-width: 900px;
+  margin: 100px auto 0;
+  border-radius: 25px;
+  padding: 30px;
+}
+
+.app h1 {
+  font-size: 25px;
+  color: #7EB2DD;
+  font-weight: 600;
+  border-bottom: 1px solid #F37F9C;
+  padding-bottom: 30px;
+}
+
+.quiz {
+  padding: 20px 0;
+}
+
+.quiz h2 {
+  font-size: 18px;
+  color: #445E93;
+  font-weight: 600;
+}
+
+/*Multi-choice buttons*/
+.btn {
+  background: #FFF;
+  color: #445E93;
+  font-weight: 800;
+  font-family: 'Courier New', Courier, monospace;
+  width: 100%;
+  border: 0px solid #222;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: left;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn:hover:not([disabled]){
+  background: #ADCCEB;
+  color: #fff;
+}
+
+.btn:disabled{
+  cursor: no-drop;
+}
+
+/*"Next question" button*/
+#next-btn {
+  background: #F37F9C;
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 500;
+  width: 150px;
+  border: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: none;
+}
+
+#next-btn:hover {
+  background-color: #7EB2DD;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+/*Hide next button when user is answering question - prevents user from breaking program*/
+
+
+/*correct + incorrect answers*/
+.correct{
+  background: #8ace7e;
+}
+
+.incorrect{
+  background: #ff684c;
+}
+
+/*Japanese Culture Descriptions*/
+.paragraph-light-center {
+  text-align: center;
+  margin: 260px;
+  margin-top: auto;
+  margin-bottom: 10px;
+  color: #FCECC9;
+}
+
+/*OUR VALUES + FOOD AND DRINK*/
+/*Column Headings*/
+.heading-small-columns {
+  text-align: center;
+  font-size: 36px;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h2 {
+  text-align: center;
+  color: #FCB0B3;
+}
+
+.s-desc {
+  color: #FCECC9;
+  text-align: center;
+  margin: 35px;
+}
+
+/*OUR FOOD PAGE*/
+
+
+
+/*for onenote evidence*/
+
+/*motto-heading*/
+.box-1 {
+  margin-left: 15%;
+  margin-right: 15%;
+  border-width: 8px;
+  border-color: #7EB2DD;
+  border-style: double;
+}
+
+.motto-heading {
+  writing-mode: vertical-lr;
+  margin: auto;
+  height: 350px;
+  width: 300px;
+  text-orientation: upright;
+}
+
+/*japanese-culture-description*/
+.box-2 {
+  margin-left: 10%;
+  margin-right: 10%;
+  border-width: 8px;
+  border-color: #7EB2DD;
+  border-style: double;
+}
+
+/*cafe-menu-section*/
+.box-3 {
+  margin-left: 6%;
+  margin-right: 6%;
+  border-width: 8px;
+  border-color: #7EB2DD;
+  border-style: double;
+}
+
+/*about + cafe section*/
+
+
