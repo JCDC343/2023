@@ -22,6 +22,17 @@ function topFunction() {
 
 /*QUIZ PROGRAM*/
 
+/*Personally defined types*/
+function Subheadings(english, japanese) {
+  this.english = english;
+  this.japanese = japanese;
+}
+
+/*creating the object*/
+let mySubheadings = new Subheadings("Omotenashi's Japanese Culture Quiz", "おもてなしの日本文化クイズ");
+
+document.getElementById("quiz-sub-headings").innerHTML = (mySubheadings.english+"<br/><br/>"+mySubheadings.japanese);
+
 /*Quiz questions + answers*/
 const questions = [
   {
@@ -206,7 +217,6 @@ const questions = [
   }
 ];
   
-
 /*Adding variables for elements (IDs)*/
 const questionElement = document.getElementById("question"); 
 const answerButtons = document.getElementById("answer-buttons"); 

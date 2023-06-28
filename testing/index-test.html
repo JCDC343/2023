@@ -1,0 +1,23 @@
+<!doctype html>
+	<head>
+		<title>Create User-defined Object in JavaScript</title>
+	</head>
+	<body>
+        <h1>cars</h1>
+        <center><p id="demo"></p></center>
+		<script>
+			/* defining a new constructor function */
+            function Bike(company, model, year) {
+                this.company = company;
+                this.model = model;
+                this.year = year;
+            }
+            
+            /* creating the object */
+            let myBike = new Bike("KTM", "Duke", 2010);
+           
+            document.getElementById("demo").innerHTML = (myBike.company+"<br/>"+myBike.model+"<br/>"+myBike.year);
+            
+		</script>
+	</body>
+</html>
