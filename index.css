@@ -223,6 +223,17 @@ hr {
 
 /*QUIZ PAGE*/
 
+/*SweetAlert2 button*/
+.sweetalert2 {
+  cursor: pointer;
+  background-color: #445E93;
+  border:none; 
+  border-radius: 3px;
+  padding: 10px;
+  text-decoration: none;
+  margin-bottom: -5%;
+}
+
 /*QUIZ PROGRAM*/
 .app {
   background: #FBDADC;

@@ -8,6 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="logo(2).PNG">
         <link rel="stylesheet" href="index.css"> <!--CSS page linking-->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> <!--Connecting SweetAlert2 library to code-->
     </head>
     <body>
        
@@ -26,7 +27,6 @@
         <center><img width="40%" src="quiz-heading-2.PNG" alt="quiz-heading"></center>
       </div>
       
-      <br><br><br>
       <br><br>
 
       <!--Label Light-->
@@ -41,6 +41,25 @@
         Challenge your friends and Goodluck! 
         <br><br>
         - Kōrai</div>
+        <br><br><br>
+
+      <!--SweetAlert2` fun button-->
+      <center>
+      <button class="sweetalert2" onclick="funButton()">
+        <img src="click-me-icon.png" alt="click-me" height="300px"></img>
+      </button>
+      </center>
+      
+      <template id="my-template">
+        <center><swal-title>
+          Ganbarimasu!
+          頑張ります
+          <small-text style="font-size: medium;">Do your best!</small-text>
+        </swal-title></center>
+        <swal-button color="pink" type="confirm">
+          ❀ Arigato ❀
+        </swal-button>
+      </template>
 
       <!--Line Separater-->
       <hr>
