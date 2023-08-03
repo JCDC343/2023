@@ -20,6 +20,13 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
+// SweetAlert2 fun button
+function funButton() {
+  Swal.fire({
+    template: '#my-template'
+  })
+}
+
 /*QUIZ PROGRAM*/
 
 /*Personally defined types*/
