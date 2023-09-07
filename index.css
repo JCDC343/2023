@@ -1,7 +1,39 @@
 /*GENERAL*/
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #445E93;
   font-family: 'Courier New', Courier, monospace;
+  font-size: 100%;     /* flexible baseline */
+  line-height: 1.4;
+}
+
+/*Navbar*/
+.navbar {
+  width: 80%;
+  overflow:auto;
+  margin:auto;
+}
+
+.nav-logo {
+  float: left;
+  padding: 15px;
+  text-decoration: none;
+  width: 13%;
+}
+
+.navbar a {
+  float: right;
+  padding: 25px;
+  text-decoration: none;
+  font-size: 2vw;
+  color: #FCECC9;
+}
+
+.navbar a:hover {
+  color: #7EB2DD;
 }
 
 /*Scroll back to top of page*/
@@ -29,34 +61,13 @@ body {
   transition: all 0.3s;
 }
 
+/*Responsive page footers*/
+.seig-dood {
+  max-width: 100%;
+  height: auto;
+}
+
 /*HOME PAGE*/
-
-/*Navbar*/
-.navbar {
-  width: 80%;
-  overflow:auto;
-  margin:auto;
-}
-
-.nav-logo {
-  float: left;
-  padding: 15px;
-  text-decoration: none;
-  font-size: 20px;
-  width: 10%;
-}
-
-.navbar a {
-  float: right;
-  padding: 20px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #FCECC9;
-}
-
-.navbar a:hover {
-  color: #7EB2DD;
-}
 
 /*Page Headings*/
 .page-headings {
@@ -80,6 +91,7 @@ h1 {
   text-align: center;
   letter-spacing: 0.2em;
   color: #FCB0B3;
+  font-size: 1.3vw;
 }
 
 /*Small (Motto) Heading*/
@@ -219,6 +231,7 @@ hr {
 .license-label-light {
   text-align: center;
   color: #FCECC9;
+  font-size: 1.3vw;
 }
 
 /*QUIZ PAGE*/
@@ -333,7 +346,7 @@ hr {
 /*Column Headings*/
 .heading-small-columns {
   text-align: center;
-  font-size: 36px;
+  font-size: 3vw;
   color: white;
 }
 
@@ -358,10 +371,29 @@ h2 {
   color: #FCB0B3;
 }
 
+.our-value-headings {
+  text-align: center;
+  color: #FCB0B3;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2vw;
+}
+
 .s-desc {
   color: #FCECC9;
   text-align: center;
   margin: 35px;
+  font-size: 1vw;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
+.item {
+  flex-basis: 100%;
 }
 
 /*OUR FOOD PAGE*/
