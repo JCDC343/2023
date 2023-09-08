@@ -43,7 +43,7 @@ body {
   bottom: 20px;
   right: 30px;
   z-index: 99;
-  font-size: 18px;
+  font-size: 1.5vw;
   font-family: 'Courier New', Courier, monospace;
   border: none;
   outline: none;
@@ -107,34 +107,42 @@ hr {
   color: #FCECC9;
 }
 
+/*Main Flexbox responsive CSS for ABOUT section columns*/
+.parent {
+  display: flex;
+}
+
+.item {
+  width: 50%;
+  padding: 2em;
+  color: #ffffff;
+  min-height: 500px;
+}
+
+@media screen and (max-width: 600px){
+  
+  .parent {
+    flex-direction: column-reverse;  
+  }
+  
+  .item {
+    width: auto;
+    min-height: 200px;
+  } 
+}
+
 /*ABOUT SECTION*/
 
 /*Label Light-left*/
 .label-light-left {
-  text-align: left;
-  margin-left: 150px;
   color: #FCB0B3;
+  font-size: 1.5vw;
 }
 
 /*Who We Are Heading*/
 .wwa-heading-small {
-  text-align: left;
-  font-size: 30px;
-  margin: 150px;
-  margin-top: 20px;
-  margin-bottom: 10px;
+  font-size: 2.5vw;
   color: white;
-}
-
-/*WWA Paragraph*/
-.paragraph-light-left {
-  text-align: left;
-  font-size: 16.5px;
-  margin: 150px;
-  width: 500px;
-  margin-top: auto;
-  margin-bottom: 10px;
-  color: #FCECC9;
 }
 
 /*Button-left*/
@@ -145,9 +153,8 @@ hr {
   padding: 12px 26px;
   text-align: center;
   display: inline-block;
-  font-size: 16.5px;
+  font-size: 1vw;
   font-family: 'Courier New', Courier, monospace;
-  margin-left: 150px;
   letter-spacing: 0.2em;
   line-height: 25px;
   transition: all 0.3s;
@@ -161,41 +168,22 @@ hr {
 
 /*WWA Image*/
 .wwa-image {
-  margin-left: 690px;
-  margin-top: -700px;
-  margin-bottom: 100px;
-  width: 48%;
+  width: 100%;
+  height: auto;
 }
 
 /*OUR CAFE + QUIZ SECTION*/
 
 /*Label Light-right*/
 .label-light-right {
-  text-align: right;
-  margin-right: 140px;
   color: #FCB0B3;
+  font-size: 1.5vw;
 }
 
 /*Our Quiz! Heading*/
 .oq-heading-small {
-  text-align: right;
-  font-size: 30px;
-  margin: 190px;
-  margin-right: 140px;
-  margin-top: 20px;
-  margin-bottom: 10px;
+  font-size: 2.5vw;
   color: white;
-}
-
-/*OQ Paragraph*/
-.paragraph-light-right {
-  text-align: right;
-  font-size: 16.5px;
-  margin: 800px;
-  margin-right: 140px;
-  margin-top: auto;
-  margin-bottom: 10px;
-  color: #FCECC9;
 }
 
 /*Button-right*/
@@ -206,9 +194,8 @@ hr {
   padding: 12px 26px;
   text-align: center;
   display: inline-block;
-  font-size: 16.5px;
+  font-size: 1vw;
   font-family: 'Courier New', Courier, monospace;
-  margin-left: 1055px;
   letter-spacing: 0.2em;
   line-height: 25px;
   transition: all 0.3s;
@@ -222,9 +209,8 @@ hr {
 
 /*OQ Image*/
 .oq-image {
-  margin-left: 50px;
-  margin-top: -800px;
-  width: 50%;
+  width: 100%;
+  height: auto;
 }
 
 /*License Label Light*/
