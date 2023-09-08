@@ -119,6 +119,7 @@ hr {
   min-height: 500px;
 }
 
+/*Media query detecting viewport width*/
 @media screen and (max-width: 600px){
   
   .parent {
