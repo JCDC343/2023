@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>おもてなし ~ ^ω^</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="logo(2).PNG">
+        <link rel="stylesheet" href="index.css"> <!--CSS page linking-->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> <!--Connecting SweetAlert2 library to code-->
+    </head>
+    <body>
+       
+      <br>
+      <!--NAVBAR-->
+      <div class="navbar">
+        <a href="index-3.html">Menu</a>
+        <a href="index-2.html">Quiz</a> 
+        <a href="index.html">Home</a> 
+        <img class="nav-logo" src="logo.PNG" alt="nav-logo">
+      </div>          
+
+      <!--Quiz Heading-->
+      <br><br><br><br>
+      <div>
+        <center><img width="40%" src="quiz-heading-2.PNG" alt="quiz-heading"></center>
+      </div>
+      
+      <br><br>
+
+      <!--Label Light-->
+      <div class="label-light">QUIZ</div> 
+      <br>
+
+      <!--INTRO HEADING-->
+      <div class="heading-small">Welcome to Omotenashi Café’s Quiz!</div>
+      <br><br>
+      <div class="heading-small" style="font-size: 150%; color: #FCECC9;">Our 20 question quiz will test you on your knowledge about Japanese culture. 
+        <br><br>
+        Challenge your friends and Goodluck! 
+        <br><br>
+        - Kōrai</div>
+        <br><br><br>
+
+      <!--SweetAlert2` fun button-->
+      <center>
+      <button class="sweetalert2" onclick="funButton()">
+        <img src="click-me-icon.png" alt="click-me" height="300px"></img>
+      </button>
+      </center>
+      
+      <template id="my-template">
+        <center><swal-title>
+          Ganbarimasu!
+          頑張ります
+          <small-text style="font-size: medium;">Do your best!</small-text>
+        </swal-title></center>
+        <swal-button color="pink" type="confirm">
+          ❀ Arigato ❀
+        </swal-button>
+      </template>
+
+      <!--Line Separater-->
+      <hr>
+
+      <!--QUIZ HEADING QUESTION-->
+      <div class="heading-small"><b>Omotenashi no nipponbunka kuizu</b></div>
+      <br>
+      <center><p id="quiz-sub-headings" style="color: white; font-size: 20px;"></p></center>
+
+      <!--QUIZ-->
+      <div class="app">
+        <div class="quiz">
+          <h2 id="question">question goes here</h2>
+          <div id="answer-buttons">
+            <button class="btn">answer 1</button>
+            <button class="btn">answer 2</button>
+            <button class="btn">answer 3</button>
+            <button class="btn">answer 4</button>
+          </div>
+          <button id="next-btn" onclick="handleNextQuestion">next</button>
+        </div>
+      </div>
+
+      <!--Line Separater-->
+      <hr>
+
+      <!--JAPANESE CULTURE DESCRIPTIONS-->
+      <div><p class="paragraph-light-center">In Japanese culture, Omotenashi meaning hospitality, is very significant. 
+        Omotenashi is a way of living in Japan, and focuses on providing the best possible services when it comes to hospitality, 
+        while also expecting nothing in return. This meaningful concept is what inspired our cafe name. We would like to give our 
+        customers the same superb hospitality through omotenashi.
+        <br><br>
+        The doodles in which you see decorating our website are called Seigaiha waves. Seigaiha literally means ‘blue sea and waves’. 
+        Seigaiha waves are a traditional Japanese design which symbolize power and resistance - key elements of Japanese culture.</p></div>
+
+      <!--Line Separater-->
+      <br>
+      <hr>
+      <br>
+
+      <!--OUR VALUES-->
+      <div class="heading-small-columns"><b>Our Values</b></div>
+
+      <br><br><br>
+      <br><br><br>
+
+       <!--Values 1, 2, 3-->
+       <div class="container">
+        <div class="item">
+          <center><img src="pc+c-value.PNG" alt="pc+c-value" width="50%"></center>
+          <center><b><p class="our-value-headings">Polite Courtesies <br> + <br> Cleanliness</p></b></center>
+          <p class="s-desc">In Japan, customers often slurp soup and drinks to let the chef know it tastes delicious! Omotenashi will have chabudai (Japanese tables)
+            which are traditionally low and requires customers to kneel while having meals.
+            <br><br>
+            Keeping areas clean at all times is also an important practice for Omotenashi as one of Japan's main religions, Shintoism, conducts the rituals of purity 
+            and purification frequently.</p>
+        </div>
+        <div class="item">
+          <center><img src="h-value.PNG" alt="h-value" width="28%"></center>
+          <center><b><p class="our-value-headings">Hospitality</p></b></center>
+          <p class="s-desc">At Omotenashi Café, Hospitality is our main value. Our staff aim to always treat customers with kindness and provide as much
+            as we can for a diverse, comfy, and cute environment for our customers.</p>
+        </div>
+        <div class="item">
+          <center><img src="t+d-value.PNG" alt="t+d-value" width="35%"></center>
+          <center><b><p class="our-value-headings">Diversity <br> + <br> Tradition</p></b></center>
+          <p class="s-desc">Omotenashi Café focuses on being diverse, through the wonders of Japanese culture. Inspired by Japanese tradition, Omotenashi chefs 
+            and staff will shout "IRASSHAIMASE!" altogether whenever a customer enters their café to give them a warm welcome. 
+            <br><br>
+            Our Japanese culture quiz teaches customers more about Japanese culture in a fun way :3 Tameshite miru! - Give it a try!</p>
+        </div>
+      </div>
+
+      <br><br><br>
+      <br><br><br>
+
+        <!--Label Light-->
+        <div class="label-light">OMOTENASHI CAFÉ</div> 
+        <br>
+
+       <!--DOODLES-->
+      <center><img class="seig-dood" src="Seigaiha doodles.PNG" alt="seig-dood"></center>
+
+      <br><br><br>
+      <br><br><br>
+
+       <!--License Label Light-->
+       <div class="license-label-light">
+        O M O T E N A S H I <br><br> 2023
+      </div>
+  </div>
+
+    <br><br><br>
+    <br><br><br>
+
+    <button onclick="topFunction()" id="btp-btn" title="back-to-top">Back to top ↑</button>
+
+    <br><br><br>
+
+        <script src="index.js" async defer></script> <!--JS page linking-->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    </body>
+</html>
