@@ -238,8 +238,7 @@ hr {
 /*QUIZ PROGRAM*/
 .app {
   background: #FBDADC;
-  width: 100%;
-  max-width: 900px;
+  max-width: 60%;
   margin: 100px auto 0;
   border-radius: 25px;
   padding: 30px;
@@ -258,7 +257,6 @@ hr {
 }
 
 .quiz h2 {
-  font-size: 18px;
   color: #445E93;
   font-weight: 600;
 }
