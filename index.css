@@ -265,6 +265,7 @@ hr {
 .btn {
   background: #FFF;
   color: #445E93;
+  font-size: 1.3vw;
   font-weight: 800;
   font-family: 'Courier New', Courier, monospace;
   width: 100%;
@@ -292,6 +293,7 @@ hr {
   color: #fff;
   font-family: 'Courier New', Courier, monospace;
   font-weight: 500;
+  font-size: 1.5vw;
   width: 150px;
   border: 0;
   padding: 10px;
@@ -353,6 +355,7 @@ hr {
 h2 {
   text-align: center;
   color: #FCB0B3;
+  font-size: 2vw;
 }
 
 .our-value-headings {
