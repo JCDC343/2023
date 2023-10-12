@@ -205,7 +205,7 @@ const questions = [
     ]
   },
   {
-    question: "What the the famous mountain in Japan called?",
+    question: "What is the famous mountain in Japan called?",
     answers: [
       { text: "Mount Faju", correct: false},
       { text: "Mount Fuji", correct: true},
