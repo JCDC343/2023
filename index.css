@@ -319,13 +319,11 @@ hr {
   background: #ff684c;
 }
 
-/*Japanese Culture Descriptions*/
+/*Japanese Culture Descriptions*/ 
 .paragraph-light-center {
-  text-align: center;
-  margin: 260px;
-  margin-top: auto;
-  margin-bottom: 10px;
   color: #FCECC9;
+  font-size: 1.3vw;
+  max-width: 60%;
 }
 
 /*OUR VALUES + FOOD AND DRINK*/
