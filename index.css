@@ -97,11 +97,8 @@ h1 {
 /*Small (Motto) Heading*/
 .heading-small {
   text-align: center;
-<<<<<<< HEAD:random-copy/index.css
   font-size: 1.3vw;
-=======
   font-size: 2.5vw;
->>>>>>> a4666b86a228ebe817def62f90405f137d58aea2:index.css
   color: white;
 }
 
