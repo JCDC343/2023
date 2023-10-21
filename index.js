@@ -296,6 +296,10 @@ function selectAnswer(e){
 /*Shows score to user at the end of quiz*/
 function showScore(){
   resetState();
+  if (score < 10)
+    alert("Try harder next time..");
+  if (score >= 10)
+    alert("You're a natural!");
   questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
   document.getElementById("next-btn").style.display = "block";
   document.getElementById("next-btn").style.visibility = "visible";
